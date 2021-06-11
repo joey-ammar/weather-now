@@ -1,0 +1,121 @@
+.Introduction {
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  background-color: #2b2d34;
+}
+.Introduction_Inside {
+  display: flex;
+}
+.Introduction_Left,
+.Introduction_Right {
+  width: 100%;
+  height: 100vh;
+}
+.Introduction_Left {
+  background-image: url("../../Images/img.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin: 100px;
+}
+.Introduction_Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.Introduction_Right h1 {
+  color: white;
+  font-weight: 700;
+  width: 20%;
+  line-height: 20px;
+  background-color: white;
+  color: #2b2d34;
+  padding: 10px 0px 10px 10px;
+}
+.Introduction_Right p {
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  margin: 15px 0px;
+}
+.Introduction_Right a {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.Icons {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+.Icons i {
+  cursor: pointer;
+  margin-right: 1rem;
+  border-radius: 5rem;
+  border: 1px solid white;
+  padding: 0.5rem 0.6rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .Introduction_Inside {
+    display: block;
+    width: 100%;
+  }
+  .Introduction_Left {
+    display: none;
+  }
+
+  .Introduction_Right {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .Introduction_Right h1 {
+    width: 30%;
+    line-height: 20px;
+    text-align: center;
+    padding: 2rem 0rem;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .Introduction_Right p {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  .Icons {
+    right: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .Introduction_Right p {
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .Icons {
+    left: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Introduction_Right p {
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .Icons {
+    left: 2rem;
+  }
+}

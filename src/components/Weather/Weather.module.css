@@ -1,0 +1,181 @@
+.Main {
+  height: 100vh;
+  width: 100%;
+  background-color: #2b2d34;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  color: #2b2d34;
+}
+.Left,
+.Right {
+  width: 50%;
+  height: 100vh;
+}
+.Container {
+  margin: 0 auto;
+  width: 70%;
+}
+.Right {
+  background-image: url("../../Images/img12.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10rem;
+}
+.City {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Country {
+  display: flex;
+}
+.Temp {
+  margin: 1rem 0rem;
+}
+.Country div {
+  background-color: white;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+}
+.Temp div {
+  background-color: white;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+}
+.Temp img {
+  position: absolute;
+  top: 35rem;
+  left: 35rem;
+}
+.Temp a {
+  color: #242424;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+}
+.Special {
+  height: 100vh;
+  background-color: #2b2d34;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Special small {
+  color: antiquewhite;
+  font-size: 1.5rem;
+}
+.Special h1 {
+  color: white;
+  font-size: 3rem;
+}
+.Special a {
+  background-color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  color: #2b2d34;
+  margin: 1.5rem 0rem;
+  font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .Main {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center !important;
+    overflow: hidden;
+  }
+
+  .Right {
+    display: none;
+  }
+  .Container {
+    width: 100%;
+  }
+
+  .City {
+    display: flex;
+  }
+  .Country {
+    display: block;
+  }
+
+  .Temp img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .Main {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center !important;
+    overflow: hidden;
+  }
+
+  .Right {
+    display: none;
+  }
+  .Container {
+    width: 100%;
+  }
+
+  .City {
+    display: flex;
+  }
+  .Country {
+    display: block;
+  }
+
+  .Temp img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Main {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center !important;
+    overflow: hidden;
+  }
+
+  .Right {
+    display: none;
+  }
+  .Container {
+    width: 100%;
+  }
+
+  .City {
+    display: flex;
+  }
+  .Country {
+    display: block;
+  }
+
+  .Temp img {
+    display: none;
+  }
+}

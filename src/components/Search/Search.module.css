@@ -1,0 +1,201 @@
+.Main {
+  height: 100vh;
+  width: 100%;
+  background-color: #2b2d34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+.Container {
+  width: 60%;
+  margin: 0 auto;
+}
+.Main input {
+  width: 74%;
+  padding: 1.2rem 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #fff;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Header {
+  color: #fff;
+  font-size: 4rem;
+}
+.Divide {
+  display: flex;
+}
+.Main a {
+  color: #2b2d34;
+  background-color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0px 0.6rem;
+  padding: 1rem 1.5rem;
+}
+
+.Icons {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+.Icons i {
+  cursor: pointer;
+  margin-right: 1rem;
+  border-radius: 5rem;
+  border: 1px solid white;
+  padding: 0.5rem 0.6rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .Main {
+    display: flex;
+    text-align: center;
+    padding: 0rem 0rem;
+  }
+  .Container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Main input {
+    display: block !important;
+    width: 80%;
+    margin: 0rem auto;
+    text-align: center;
+  }
+
+  .Header {
+    font-size: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .Divide {
+    display: block;
+  }
+  .Main a {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+  }
+
+  .Icons {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 6rem;
+  }
+  .Icons i {
+    cursor: pointer;
+    margin-right: 1rem;
+    border-radius: 5rem;
+    border: 1px solid white;
+    padding: 0.5rem 0.6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .Main {
+    display: flex;
+    text-align: center;
+    padding: 0rem 0rem;
+  }
+  .Container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Main input {
+    display: block !important;
+    width: 80%;
+    margin: 0rem auto;
+    text-align: center;
+  }
+
+  .Header {
+    font-size: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .Divide {
+    display: block;
+  }
+  .Main a {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+  }
+
+  .Icons {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 6rem;
+  }
+  .Icons i {
+    cursor: pointer;
+    margin-right: 1rem;
+    border-radius: 5rem;
+    border: 1px solid white;
+    padding: 0.5rem 0.6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Main {
+    display: flex;
+    text-align: center;
+    padding: 0rem 0rem;
+  }
+  .Container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Main input {
+    display: block !important;
+    width: 80%;
+    margin: 0rem auto;
+    text-align: center;
+  }
+
+  .Header {
+    font-size: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .Divide {
+    display: block;
+  }
+  .Main a {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+  }
+
+  .Icons {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 27rem;
+  }
+  .Icons i {
+    cursor: pointer;
+    margin-right: 1rem;
+    border-radius: 5rem;
+    border: 1px solid white;
+    padding: 0.5rem 0.6rem;
+  }
+}
